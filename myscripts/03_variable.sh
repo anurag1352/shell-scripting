@@ -7,6 +7,10 @@ age=20
 
 echo "My Name is $name i'm from $city. & I'm $age years old."
 
-# TRY TO VARIABLE VALUE.
+# TRY TO CHANGE VARIABLE VALUE.
 name="Anurag Sharma"
 echo "My Name is $name i'm from $city. & I'm $age years old."
+
+# Store linux command in a variable
+myHostname=$(hostname)
+echo "My system hostname is = $myHostname"
