@@ -15,3 +15,7 @@ echo "This is complete data of this array = ${data[*]}"
 # get specific value 
 echo "Value start from 1st index : ${data[*]:1}" # start from 1.st index
 echo "Value start from 2nd index & print 2 values include index value : ${data[*]:2:2}" # value start from 2 index and we want 2 values
+
+# ADDING NEW VALUES INSIDE THIS ARRAY.
+data+=( True "Pkl" )
+echo "After adding : ${data[*]}"
